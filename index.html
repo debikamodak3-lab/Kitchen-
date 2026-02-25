@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>mom's touch</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>mom's touch</h1>
+<p>Authentic Taste of India</p>
+<img src="restaurant.jpg" class="restaurant-img">
+</header>
+
+<h2 class="section-title">Menu</h2>
+
+<div class="accordion">
+
+<button class="accordion-btn">🥟 Starters (Veg & Non-Veg)</button>
+<div class="accordion-content">
+
+<h3 class="veg">🌱 Vegetarian</h3>
+
+<div class="item" onclick="addToCart('Veg Samosa (2 pcs)',120)">
+<img src="veg-samosa.jpg">
+<span>Veg Samosa (2 pcs) – ₹120</span>
+</div>
+
+<div class="item" onclick="addToCart('Paneer Tikka',280)">
+<img src="paneer-tikka.jpg">
+<span>Paneer Tikka – ₹280</span>
+</div>
+
+<div class="item" onclick="addToCart('Hara Bhara Kebab',240)">
+<img src="hara-bhara-kebab.jpg">
+<span>Hara Bhara Kebab – ₹240</span>
+</div>
+
+<div class="item" onclick="addToCart('Crispy Corn Chaat',180)">
+<img src="crispy-corn-chaat.jpg">
+<span>Crispy Corn Chaat – ₹180</span>
+</div>
+
+<h3 class="nonveg">🍗 Non-Vegetarian</h3>
+
+<div class="item" onclick="addToCart('Chicken Tikka',320)">
+<img src="chicken-tikka.jpg">
+<span>Chicken Tikka – ₹320</span>
+</div>
+
+<div class="item" onclick="addToCart('Chicken Malai Kebab',340)">
+<img src="chicken-malai-kebab.jpg">
+<span>Chicken Malai Kebab – ₹340</span>
+</div>
+
+<div class="item" onclick="addToCart('Mutton Seekh Kebab',380)">
+<img src="mutton-seekh-kebab.jpg">
+<span>Mutton Seekh Kebab – ₹380</span>
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
